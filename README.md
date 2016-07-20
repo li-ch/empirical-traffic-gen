@@ -140,3 +140,7 @@ where $prefix is the string provided via command line. The two files give
 the size (in bytes) and completion time (in microseconds) for all requests and 
 flows, respectively. If the fanout is always 1, requests and flows (and hence 
 the outputs) are identical.
+
+## Cloudburst Background Traffic
+
+The configuration file cbrstConfig contains the DCTCP short flows traffic.

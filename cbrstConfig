@@ -1,0 +1,8 @@
+server 192.168.1.100 5000
+server 192.168.1.101 5000
+server 192.168.1.102 5000
+server 192.168.1.103 5000
+req_size_dist CBRST_CDF
+fanout 1 100
+load 1000Mbps
+num_reqs 5000
